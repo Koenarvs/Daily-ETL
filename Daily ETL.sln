@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Daily ETL", "Daily ETL\Daily ETL.dtproj", "{EB77F6E6-6801-4B31-8FB7-CCBEB1DD7B12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB77F6E6-6801-4B31-8FB7-CCBEB1DD7B12}.Development|Default.ActiveCfg = Development
+		{EB77F6E6-6801-4B31-8FB7-CCBEB1DD7B12}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50ABFF9F-56E6-46A2-B193-CFF5BEDA42E7}
+	EndGlobalSection
+EndGlobal
