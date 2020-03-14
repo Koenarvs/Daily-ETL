@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="4/10/2016 11:13:19 AM"
@@ -7,13 +7,13 @@
   DTS:CreatorName="GREG7440WIN10\Greg"
   DTS:DTSID="{1688CC04-248C-44DC-9B43-C8D2DE1DE3FD}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="13.0.2149.0"
+  DTS:LastModifiedProductVersion="15.0.2000.68"
   DTS:LocaleID="3081"
   DTS:ObjectName="DailyETLMain"
   DTS:PackageType="5"
   DTS:ProtectionLevel="0"
-  DTS:VersionBuild="59"
-  DTS:VersionGUID="{89BBB934-3BA5-426A-80EE-83430A3E3947}">
+  DTS:VersionBuild="60"
+  DTS:VersionGUID="{E30C0C76-14B8-4E9D-AF86-258D08C0B418}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -138,7 +138,7 @@
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -383,7 +383,7 @@
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetCityUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetCityUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -922,7 +922,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1135,7 +1135,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetCustomerUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetCustomerUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -1614,7 +1614,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1799,7 +1799,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetEmployeeUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetEmployeeUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -2228,7 +2228,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetMovementUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetMovementUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -2514,7 +2514,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -2930,7 +2930,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetOrderUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetOrderUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -3405,7 +3405,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -3933,7 +3933,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetPaymentMethodUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetPaymentMethodUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -4111,7 +4111,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -4455,7 +4455,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetPurchaseUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetPurchaseUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -4744,7 +4744,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -5154,7 +5154,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetSaleUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetSaleUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -5672,7 +5672,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -6220,7 +6220,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetStockHoldingUpdates
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetStockHoldingUpdates
 WITH RESULT SETS
 (
     (
@@ -6449,7 +6449,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -6825,7 +6825,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetStockItemUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetStockItemUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -7311,7 +7311,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -7823,7 +7823,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetSupplierUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetSupplierUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -8108,7 +8108,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -8510,7 +8510,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetTransactionUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetTransactionUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -8956,7 +8956,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -9464,7 +9464,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">EXEC Integration.GetTransactionTypeUpdates ?, ?
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">EXEC Integration.GetTransactionTypeUpdates ?, ?
 WITH RESULT SETS
 (
     (
@@ -9642,7 +9642,7 @@ WITH RESULT SETS
                       dataType="System.String"
                       description="The SQL command to be executed."
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -10089,11 +10089,11 @@ WITH RESULT SETS
       <GraphLayout
         Capacity="256" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="238.4,41.6"
+          Size="238,42"
           Id="Package\Calculate ETL Cutoff Time backup"
           TopLeft="162,311.5" />
         <NodeLayout
-          Size="291.2,41.6"
+          Size="291,42"
           Id="Package\Ensure Date Dimension includes current year"
           TopLeft="722.5,311.5" />
         <NodeLayout
@@ -10244,9 +10244,9 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="263,612"
-          Size="198.4,43.2"
+          Size="198,43"
           Id="Package\Load City Dimension"
-          TopLeft="168.5,396.5" />
+          TopLeft="183.954545454545,398.318181818182" />
         <NodeLayout
           Size="279,42"
           Id="Package\Load Customer Dimension\Extract Updated Customer Data to Staging"
@@ -10395,7 +10395,7 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="290,613"
-          Size="224.8,43.2"
+          Size="225,43"
           Id="Package\Load Customer Dimension"
           TopLeft="168,468.5" />
         <NodeLayout
@@ -10546,7 +10546,7 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="291,613"
-          Size="225.6,43.2"
+          Size="226,43"
           Id="Package\Load Employee Dimension"
           TopLeft="169.5,535.5" />
         <NodeLayout
@@ -10697,9 +10697,9 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="295,613"
-          Size="200,43.2"
+          Size="200,43"
           Id="Package\Load Movement Fact"
-          TopLeft="611.500000000001,408.5" />
+          TopLeft="503.318181818183,404.863636363636" />
         <NodeLayout
           Size="261,42"
           Id="Package\Load Order Fact\Extract Updated Order Data to Staging"
@@ -10848,7 +10848,7 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="272,613"
-          Size="177.6,43.2"
+          Size="178,43"
           Id="Package\Load Order Fact"
           TopLeft="615.000000000001,484.5" />
         <NodeLayout
@@ -10999,9 +10999,9 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="325,613"
-          Size="260,43.2"
+          Size="260,43"
           Id="Package\Load Payment Method Dimension"
-          TopLeft="165.5,603.5" />
+          TopLeft="157.318181818182,603.5" />
         <NodeLayout
           Size="277,42"
           Id="Package\Load Purchase Fact\Extract Updated Purchase Data to Staging"
@@ -11150,9 +11150,9 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="288,613"
-          Size="192.8,43.2"
+          Size="193,43"
           Id="Package\Load Purchase Fact"
-          TopLeft="616.000000000001,566.5" />
+          TopLeft="613.272727272728,567.409090909091" />
         <NodeLayout
           Size="254,42"
           Id="Package\Load Sale Fact\Extract Updated Sale Data to Staging"
@@ -11301,9 +11301,9 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="265,613"
-          Size="171.2,43.2"
+          Size="171,43"
           Id="Package\Load Sale Fact"
-          TopLeft="611.500000000001,646.5" />
+          TopLeft="625.136363636365,647.409090909091" />
         <NodeLayout
           Size="271,42"
           Id="Package\Load Stock Holding Fact\Extract All Stock Holding Data to Staging"
@@ -11452,9 +11452,9 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="282,613"
-          Size="215.2,43.2"
+          Size="215,43"
           Id="Package\Load Stock Holding Fact"
-          TopLeft="617.000000000001,722.5" />
+          TopLeft="606.09090909091,723.409090909091" />
         <NodeLayout
           Size="286,42"
           Id="Package\Load Stock Item Dimension\Extract Updated Stock Item Data to Staging"
@@ -11603,7 +11603,7 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="297,613"
-          Size="231.2,43.2"
+          Size="231,43"
           Id="Package\Load Stock Item Dimension"
           TopLeft="171.5,678.5" />
         <NodeLayout
@@ -11754,9 +11754,9 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="284,613"
-          Size="217.6,43.2"
+          Size="218,43"
           Id="Package\Load Supplier Dimension"
-          TopLeft="173.000000000001,742.5" />
+          TopLeft="174.818181818183,752.5" />
         <NodeLayout
           Size="289,42"
           Id="Package\Load Transaction Fact\Extract Updated Transaction Data to Staging"
@@ -11905,9 +11905,9 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="300,613"
-          Size="206.4,43.2"
+          Size="206,43"
           Id="Package\Load Transaction Fact"
-          TopLeft="627.000000000001,791.5" />
+          TopLeft="616.09090909091,798.772727272727" />
         <NodeLayout
           Size="316,42"
           Id="Package\Load Transaction Type Dimension\Extract Updated Transaction Type Data to Staging"
@@ -12056,11 +12056,11 @@ WITH RESULT SETS
           HeaderHeight="43"
           IsExpanded="False"
           PanelSize="327,613"
-          Size="260.8,43.2"
+          Size="261,43"
           Id="Package\Load Transaction Type Dimension"
-          TopLeft="157.500000000001,815.5" />
+          TopLeft="311.136363636365,844.590909090909" />
         <NodeLayout
-          Size="180,41.6"
+          Size="180,42"
           Id="Package\Trim Any Milliseconds"
           TopLeft="465,306.5" />
         <EdgeLayout
@@ -12091,26 +12091,26 @@ WITH RESULT SETS
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-600.5,43"
+              EndConnector="-585.045454545455,44.8181818181819"
               Start="0,0"
-              End="-600.5,35.5">
+              End="-585.045454545455,37.3181818181819">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,17.5" />
+                    End="0,18.4090909090909" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,17.5"
-                    Point2="0,21.5"
-                    Point3="-4,21.5" />
+                    Point1="0,18.4090909090909"
+                    Point2="0,22.4090909090909"
+                    Point3="-4,22.4090909090909" />
                   <mssgle:LineSegment
-                    End="-596.5,21.5" />
+                    End="-581.045454545455,22.4090909090909" />
                   <mssgle:CubicBezierSegment
-                    Point1="-596.5,21.5"
-                    Point2="-600.5,21.5"
-                    Point3="-600.5,25.5" />
+                    Point1="-581.045454545455,22.4090909090909"
+                    Point2="-585.045454545455,22.4090909090909"
+                    Point3="-585.045454545455,26.4090909090909" />
                   <mssgle:LineSegment
-                    End="-600.5,35.5" />
+                    End="-585.045454545455,37.3181818181819" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12121,30 +12121,30 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="743.500000000001,451.5">
+          TopLeft="635.318181818183,447.863636363636">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-39.5,33"
+              EndConnector="68.6818181818181,36.6363636363636"
               Start="0,0"
-              End="-39.5,25.5">
+              End="68.6818181818181,29.1363636363636">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,9.35714285714286" />
+                    End="0,10.8290043290043" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,9.35714285714286"
-                    Point2="0,13.3571428571429"
-                    Point3="-4,13.3571428571429" />
+                    Point1="0,10.8290043290043"
+                    Point2="0,14.8290043290043"
+                    Point3="4,14.8290043290043" />
                   <mssgle:LineSegment
-                    End="-35.5,13.3571428571429" />
+                    End="64.6818181818181,14.8290043290043" />
                   <mssgle:CubicBezierSegment
-                    Point1="-35.5,13.3571428571429"
-                    Point2="-39.5,13.3571428571429"
-                    Point3="-39.5,17.3571428571429" />
+                    Point1="64.6818181818181,14.8290043290043"
+                    Point2="68.6818181818181,14.8290043290043"
+                    Point3="68.6818181818181,18.8290043290043" />
                   <mssgle:LineSegment
-                    End="-39.5,25.5" />
+                    End="68.6818181818181,29.1363636363636" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12155,30 +12155,18 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 11]"
-          TopLeft="704.000000000001,527.5">
+          TopLeft="706.886363636365,527.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="8.5,39"
+              EndConnector="0,39.909090909091"
               Start="0,0"
-              End="8.5,31.5">
+              End="0,32.409090909091">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.5"
-                    Point2="0,19.5"
-                    Point3="4,19.5" />
-                  <mssgle:LineSegment
-                    End="4.5,19.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="4.5,19.5"
-                    Point2="8.5,19.5"
-                    Point3="8.5,23.5" />
-                  <mssgle:LineSegment
-                    End="8.5,31.5" />
+                    End="0,32.409090909091" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12189,30 +12177,18 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 12]"
-          TopLeft="712.500000000001,609.5">
+          TopLeft="710.204545454547,610.409090909091">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-15.5,37"
+              EndConnector="0,36.9999999999999"
               Start="0,0"
-              End="-15.5,29.5">
+              End="0,29.4999999999999">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,14.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.5"
-                    Point2="0,18.5"
-                    Point3="-4,18.5" />
-                  <mssgle:LineSegment
-                    End="-11.5,18.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-11.5,18.5"
-                    Point2="-15.5,18.5"
-                    Point3="-15.5,22.5" />
-                  <mssgle:LineSegment
-                    End="-15.5,29.5" />
+                    End="0,29.4999999999999" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12223,30 +12199,18 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 13]"
-          TopLeft="697.000000000001,689.5">
+          TopLeft="712.113636363638,690.409090909091">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="27.5,33"
+              EndConnector="0,33"
               Start="0,0"
-              End="27.5,25.5">
+              End="0,25.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,12.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.5"
-                    Point2="0,16.5"
-                    Point3="4,16.5" />
-                  <mssgle:LineSegment
-                    End="23.5,16.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="23.5,16.5"
-                    Point2="27.5,16.5"
-                    Point3="27.5,20.5" />
-                  <mssgle:LineSegment
-                    End="27.5,25.5" />
+                    End="0,25.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12257,18 +12221,18 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 14]"
-          TopLeft="727.250000000001,765.5">
+          TopLeft="716.34090909091,766.409090909091">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,26"
+              EndConnector="0,32.3636363636364"
               Start="0,0"
-              End="0,18.5">
+              End="0,24.8636363636364">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.5" />
+                    End="0,24.8636363636364" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12301,30 +12265,18 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="267.5,439.5">
+          TopLeft="281.727272727273,441.318181818182">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="13,29"
+              EndConnector="0,27.1818181818181"
               Start="0,0"
-              End="13,21.5">
+              End="0,19.6818181818181">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,10.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,10.5"
-                    Point2="0,14.5"
-                    Point3="4,14.5" />
-                  <mssgle:LineSegment
-                    End="9,14.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="9,14.5"
-                    Point2="13,14.5"
-                    Point3="13,18.5" />
-                  <mssgle:LineSegment
-                    End="13,21.5" />
+                    End="0,19.6818181818181" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12357,30 +12309,18 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="282.5,578.5">
+          TopLeft="284.909090909091,578.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="13,25"
+              EndConnector="0,25"
               Start="0,0"
-              End="13,17.5">
+              End="0,17.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,8.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,8.5"
-                    Point2="0,12.5"
-                    Point3="4,12.5" />
-                  <mssgle:LineSegment
-                    End="9,12.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="9,12.5"
-                    Point2="13,12.5"
-                    Point3="13,16.5" />
-                  <mssgle:LineSegment
-                    End="13,17.5" />
+                    End="0,17.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12391,30 +12331,18 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="295.5,646.5">
+          TopLeft="287.159090909091,646.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-8.5,32"
+              EndConnector="0,32"
               Start="0,0"
-              End="-8.5,24.5">
+              End="0,24.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,12" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12"
-                    Point2="0,16"
-                    Point3="-4,16" />
-                  <mssgle:LineSegment
-                    End="-4.5,16" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-4.5,16"
-                    Point2="-8.5,16"
-                    Point3="-8.5,20" />
-                  <mssgle:LineSegment
-                    End="-8.5,24.5" />
+                    End="0,24.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12425,30 +12353,18 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="402.5,700">
+          TopLeft="285.409090909091,721.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-11.499999999999,64"
+              EndConnector="0,31"
               Start="0,0"
-              End="-3.99999999999898,64">
+              End="0,23.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="18.5,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="18.5,0"
-                    Point2="22.5,0"
-                    Point3="22.5,4" />
-                  <mssgle:LineSegment
-                    End="22.5,60" />
-                  <mssgle:CubicBezierSegment
-                    Point1="22.5,60"
-                    Point2="22.5,64"
-                    Point3="18.5,64" />
-                  <mssgle:LineSegment
-                    End="-3.99999999999898,64" />
+                    End="0,23.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12459,30 +12375,30 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="282.000000000001,785.5">
+          TopLeft="283.818181818183,795.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-36.1666666666667,30"
+              EndConnector="115.651515151515,49.0909090909091"
               Start="0,0"
-              End="-36.1666666666667,22.5">
+              End="115.651515151515,41.5909090909091">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,13.8903274942879" />
+                    End="0,25.2750813542893" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,13.8903274942879"
-                    Point2="0,17.8903274942879"
-                    Point3="-4,17.8903274942879" />
+                    Point1="0,25.2750813542893"
+                    Point2="0,29.2750813542893"
+                    Point3="4,29.2750813542893" />
                   <mssgle:LineSegment
-                    End="-32.1666666666667,17.8903274942879" />
+                    End="111.651515151515,29.2750813542893" />
                   <mssgle:CubicBezierSegment
-                    Point1="-32.1666666666667,17.8903274942879"
-                    Point2="-36.1666666666667,17.8903274942879"
-                    Point3="-36.1666666666667,21.8903274942879" />
+                    Point1="111.651515151515,29.2750813542893"
+                    Point2="115.651515151515,29.2750813542893"
+                    Point3="115.651515151515,33.2750813542893" />
                   <mssgle:LineSegment
-                    End="-36.1666666666667,22.5" />
+                    End="115.651515151515,41.5909090909091" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12493,30 +12409,30 @@ WITH RESULT SETS
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="330.166666666668,815.5">
+          TopLeft="483.803030303031,844.590909090909">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="349.333333333333,-364"
+              EndConnector="87.5151515151515,-396.727272727273"
               Start="0,0"
-              End="349.333333333333,-356.5">
+              End="87.5151515151515,-389.227272727273">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-177.582018749294" />
+                    End="0,-193.908074381099" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-177.582018749294"
-                    Point2="0,-181.582018749294"
-                    Point3="4,-181.582018749294" />
+                    Point1="0,-193.908074381099"
+                    Point2="0,-197.908074381099"
+                    Point3="4,-197.908074381099" />
                   <mssgle:LineSegment
-                    End="345.333333333333,-181.582018749294" />
+                    End="83.5151515151515,-197.908074381099" />
                   <mssgle:CubicBezierSegment
-                    Point1="345.333333333333,-181.582018749294"
-                    Point2="349.333333333333,-181.582018749294"
-                    Point3="349.333333333333,-185.582018749294" />
+                    Point1="83.5151515151515,-197.908074381099"
+                    Point2="87.5151515151515,-197.908074381099"
+                    Point3="87.5151515151515,-201.908074381099" />
                   <mssgle:LineSegment
-                    End="349.333333333333,-356.5" />
+                    End="87.5151515151515,-389.227272727273" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
